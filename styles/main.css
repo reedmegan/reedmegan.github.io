@@ -1,0 +1,1618 @@
+html, body{
+   overflow-x: hidden;
+ }
+
+body {
+   font-family: "Signo", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+h4, h5, p, li, a, button {
+   font-family: "Khula", sans-serif;
+ }
+
+.div {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #003F55;
+}
+
+
+h2 {
+    font-size: 55px;
+    line-height: 63px;
+    font-weight: 700;
+    color: #003F55;
+    letter-spacing: .0em;
+}
+
+h3 {
+    font-size: 35px;
+    color: #003F55;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #00DBDE;
+    letter-spacing: .05em;
+}
+
+h5 {
+    font-size: 23px;
+    font-weight: 300;
+    color: #003F55;
+    letter-spacing: .05em;
+    line-height: 35px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 37.5px;
+    letter-spacing: .0em;
+}
+
+.button {
+    vertical-align: middle;
+    border: 2px solid #00DBDE;
+    color: white;
+    font-family: "Khula";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button.soon {
+    background-color: white;
+    border: 2px solid #003F55;
+    color: #003F55;
+}
+
+.button.soon:hover {
+    background-color: white;
+    border: 2px solid #003F55;
+}
+
+.button:hover {
+    border: 2px solid #00DBDE;
+    background-color: #00DBDE;
+    color: #003F55;
+}
+
+li {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.one-half.column { 
+    width: 48%; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a.arrow {
+    font-family: "FontAwesome";
+    font-size: 80px;
+    color: #00DBDE;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+h5.arrow-text {
+    display: block;
+    color: #00DBDE;
+    text-align: center;
+    font-weight: 300;
+}
+
+a.arrow:hover {
+    color: #003F55;
+}
+
+/* ------------------ Navigation Bar ------------------ */
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    height:110px;
+    z-index: 99;
+}
+
+.navbar-logo {
+    float: left;
+    margin-top: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+
+.navbar ul > li {
+    display: inline-block;
+    padding: 0px 20px 0 20px;
+    z-index: 99;
+}
+
+.navbar-item ul > li > a {
+    color: #003F55;
+    font-family: "Khula";
+    letter-spacing: .04em;
+}
+
+.navbar .button {
+    margin-top: 5px;
+}
+
+.enlarge:hover {
+    color: #00DBDE;
+}
+
+
+/* ------------------ Footer ------------------ */
+.footer {
+    position: relative;   
+    background-color: #003F55;
+    width: 100%;
+    height: 120px;
+}
+
+.footer-copy {
+    margin-top: 45px;
+}
+
+.footer-copy p {
+    color: white;
+    font-weight: 300;
+}
+
+.footer-icons {
+    margin-top: 35px;
+}
+
+.footer-icons img {
+    padding: 0px 20px 0px 20px;
+    float: right;
+    width: 7%;
+}
+
+.footer-icons .email-icon {
+    margin-top: 9px;
+}
+
+.footer-icons .twitter-icon {
+    margin-top: 5px;
+}
+
+/* Hero Section */
+
+.hero {
+    position: relative;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.hero span {
+    color: #00DBDE;
+}
+
+.hero h4 {
+    margin-top: 40px;
+    color: #003F55;
+    letter-spacing: .0em;
+    font-weight: 400;
+}
+
+.hero b {
+    font-weight: 700;
+}
+
+/* Case Studies on Home Page */
+/*
+.sommme-bg { 
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.case-study-1 .h2 {
+    position: relative;
+    margin-top: -300px;
+    text-align: center;
+
+}
+*/
+
+.case-study-1 h2 {
+    color: white;
+}
+
+.case-study-2 h2, .case-study-3 h2 {
+    opacity: 0.75;
+}
+
+.case-study-1 h4 {
+    color: white;
+}
+
+.case-study-2 h4, .case-study-3 h4 {
+    color: #003F55;
+    opacity: 0.75;
+}
+
+.case-study-1 {
+    background-image: url(../images/sommme-background.png);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.case-study-2 {
+    background-image: url(../images/everybell-background.png);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.case-study-3 {
+    background-image: url(../images/mystamford-background.png);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+/* Skills Content on Home Page */
+
+.skills .row {
+    position: relative;
+    margin: 60px auto;
+    width: 100%;
+}
+
+
+/* Skills List on Home Page */
+
+.skills-list {
+    margin-top: 80px;
+}
+
+.skills-list .skills, .tools {
+    margin-bottom: 50px;
+}
+
+.skills-list .strategy {
+    margin-bottom: 49px;   
+}
+
+.skills-list ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.skills-list .button {
+    color: #003F55;
+    width: 100%;
+    padding: 0px;
+}
+
+.skills-list img {
+    width: 18%;
+}
+
+
+/* Contact Section */
+
+.contact {
+    background-image: url(../images/get-in-touch-background.png);
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.contact h2 {
+    position: relative;
+    margin-top: 80px;
+    color: white;
+}
+
+.contact .content {
+    margin-left: 0px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.contact .button {
+    margin-right: 15px;
+    margin-bottom: 80px;
+}
+
+/* ABOUT ME */
+
+.about {
+    background-image: url(../images/personal-about-background.png);
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.about h2 {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.about .content {
+    color: white;
+    position: relative;
+    margin: 40px auto;
+}
+
+
+
+/* INTERNATIONAL SECTION on ABOUT PAGE */
+.international {
+    background-image: url(../images/global-map.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    margin-top: -80px;
+    margin-bottom: 80px;
+}
+
+.international .row {
+    position: relative;
+    margin: 80px auto;
+    top: 150px;
+}
+
+.international p {
+    margin-top: 50px;
+    color: white;
+}
+
+.international h2 {
+    color: white;
+    position: relative;
+}
+
+/* WORK TOGETHER on ABOUT PAGE */
+
+.work-together-content.row {
+    position: relative;
+    margin: 60px auto;
+    width: 100%;
+}
+
+.work-together-content h2 {
+    margin-bottom: 60px;
+}
+
+.sig {
+    width: 35%;
+    margin-bottom: 100px;
+}
+
+
+/* ---- Case Study Landing Pages ---- */
+
+.sommme-background {
+    background-image: url(../images/sommme-intro-background.png);
+    width: 100%;
+    height: 411px;
+    z-index: -1;
+    position: relative;
+    margin-top: -550px;
+    margin-bottom: 80px;
+}
+
+.work-section {
+    color: white;
+    position: relative;
+    margin-top: 50px;
+}
+
+.element-sommme {
+    background-color: #00DBDE;
+    width: 256px;
+    height: 10px;
+    position: relative;
+    margin-top: -38px;
+    margin-left: 300px;
+
+}
+
+.overview .content, .problem-content .content, .research-content .content, .defining-content .content, .design-content .content, .conclusion-content .content, .mini-title, .mini-title-1 {
+    position: relative;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.conclusion-content {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.survey, .personas, .flows, .wireframes-1, .app-design {
+    position: relative;
+    margin: 40px auto;
+    width: 100%;
+}
+
+.prototype {
+    position: relative;
+    margin: 60px auto;
+    width: 20%;
+}
+
+.mini-title.proto {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.prototype:hover {
+    opacity: 0.5;
+}
+
+.personas {
+    bottom: -40px;
+}
+
+.wireframes-2 {
+    position: relative;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    width: 100%;
+    
+}
+
+.branding {
+    position: relative;
+    display: block;
+    margin: 60px auto;
+    width: 30%;
+}
+
+.problem-header {
+    position: relative;
+    margin-top: 30px;
+    background-image: url(../images/problem-background.png);
+    height: 229px;
+    z-index: -1;
+}
+
+.research-header {
+    position: relative;
+    background-image: url(../images/research-background.png);
+    height: 229px;
+}
+
+.defining-header {
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../images/defining-background.png);
+    height: 229px;
+}
+
+.design-header {
+    position: relative;
+    background-image: url(../images/design-background.png);
+    height: 229px;
+}
+
+.conclusion-header {
+    position: relative;
+    background-image: url(../images/conclusion-background.png);
+    height: 229px;
+}
+
+
+/* Assets for SommMe */
+
+.mini-title-1 {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.mini-title {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+/* Assets for SommMe */
+
+.screen {
+    width: 40%;
+    float: right;
+    position: relative;
+    top: -265px;
+    left: 350px;
+}
+
+
+/* Title Lines */
+
+.element {
+    background-color: #00DBDE;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-top: -41px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.element-problem {
+    background-color: #00DBDE;
+    width: 250px;;
+    height: 10px;
+    position: relative;
+    margin-top: -38px;
+    margin-left: 250px;
+}
+
+.element-long, .element-research {
+    background-color: #00DBDE;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-top: -31px;
+    margin-left: 390px;
+    margin-bottom: 80px;
+}
+
+.element-about {
+    background-color: #00DBDE;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 300px;
+    margin-bottom: 80px;
+}
+
+.element-international {
+    background-color: #00DBDE;
+    width: 268px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (max-width: 400px) {
+    html { 
+        background: red; 
+    }
+    
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        line-height: 40px;
+        width: 100%;
+    }
+    
+    .international h2 {
+        margin-top: -70px;
+    }
+    
+    .international p {
+        margin-top: -20px;
+    }
+
+    .international {
+        background-image: url(../images/global-map.png);
+        height: 550px;
+    }
+
+    
+    h4 {
+        font-size: 20px;
+        line-height: 27px;
+        font-weight: 700;
+        color: #00DBDE;
+        letter-spacing: .05em;
+    }
+    
+    a.arrow {
+        font-size: 50px;
+        color: #00DBDE;
+        margin-top: 90px;
+    }
+    
+    h5.arrow-text {
+        display: none;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .work-together-content h2 {
+        margin-bottom: 50px;
+    }
+    
+    .skills-list li {
+        font-size: 18px;
+    }
+    
+    .skills-list {
+        margin-top: -20px;
+    }
+    
+    .skills-list .skills, .skills-list .tools, .skills-list .strategy {
+        margin-bottom: 20px;
+        width: 40px;
+    }
+
+    .about h2 {
+        margin-bottom: 50px;
+    }
+    
+    .sommme-background {
+        margin-top: -450px;
+        margin-bottom: 50px;
+    }
+    
+    .screen {
+        float: left;
+        margin-top: 300px;
+        margin-left: -250px;
+    }
+
+    .element-sommme {
+        width: 30%;
+        margin-left: 240px;
+    }
+    
+    .element-problem {
+        width: 30%;
+        margin-left: 200px;
+    }
+    
+    .element {
+        width: 30%;
+        top: 25px;
+        left: -65px;
+    }
+
+    .element-long {
+        width: 20%;
+        top: 15px;
+        left: -10px;
+        float: right;
+    }
+    
+    .element-research {
+        width: 20%;
+        left: -10px;
+        float: right;
+    }
+    
+    .element-international {
+        margin-top: 20px;
+    }
+    
+     .element-about {
+        width: 30%;
+        top: 35px;
+        left: -40px;
+        bottom: 0px;
+        float: right;
+    }
+
+    .overview .content, .problem-content .content, .research-content .content, .defining-content .content, .design-content .content, .conclusion-content .content, .mini-title, .mini-title-1 {
+        width: 100%;
+    }
+    
+    .prototype {
+        width: 50%;
+    }
+
+    .survey {
+        margin-top: 00px;
+        margin-bottom: 00px;
+    }
+
+    .personas {
+        margin-top: -20px;
+        margin-bottom: 0px;
+    }
+    
+    .flows {
+        margin-top: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .wireframes-2 {
+        margin-top: -40px;
+    }
+
+    .branding {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .problem-header {
+        height: 200px;
+        margin-bottom: 50px;
+    }    
+    
+    .research-header {
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: -20px;
+    }
+
+    .defining-header {
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    .design-header {
+        height: 200px;
+    }
+
+    .conclusion-header {
+        height: 200px;
+        margin-bottom: -20px;
+    }
+
+    .one-third.column {
+        margin-bottom: 30px;
+    }
+    
+    .seven.columns { 
+        width: 100%; 
+    }
+    
+    .navbar {
+        height: 60px;
+    }
+    
+    .navbar-logo img {
+        width: 70%;
+        margin-top: -30px;
+    }
+    
+    .navbar-item .button {
+        display: none;
+    }
+    
+    .navbar-item ul {
+        font-size: 13px;
+        float: right;
+        position: relative;
+        margin-right: -50px;
+        margin-top: 20px;
+    }
+
+    .title {
+        margin-bottom: 0px;
+    }
+    
+    .sig {
+        width: 55%;
+        margin-bottom: 100px;
+    }
+    
+    .footer {
+        height: 90px;
+    }
+
+    .footer-copy {
+        margin-top: 30px;
+    }
+
+    .footer-copy p {
+        color: white;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .footer-icons {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer-icons img {
+        padding: 0px 0px 0px 20px;
+        float: right;
+        margin: auto;
+        width: 15%;
+    }
+
+    .footer-icons .email-icon {
+        margin-top: 4px;
+    }
+
+    .footer-icons .twitter-icon {
+        margin-top: 5px;
+    }
+}
+   
+@media (min-width: 401px) and (max-width: 687px) {    
+    html { 
+          background: green; 
+        }
+    
+    .seven.columns { 
+        width: 100%; 
+    }
+    
+    .one-third.column {
+        margin-bottom: 30px;
+    }
+    
+    h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    
+    .international h2 {
+        margin-top: -80px;
+    }
+    
+    .sig {
+        margin-top: -10px;
+        margin-bottom: 100px;
+        width: 55%;
+    }
+    
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    a.arrow {
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    
+    h5.arrow-text {
+        margin-top: -20px;
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .skills-list li {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .skills-list {
+        margin-top: -20px;
+    }
+    
+    .skills-list .skills, .skills-list .tools {
+        margin-bottom: 30px;
+        width: 40px;
+    }
+    
+    .skills-list .strategy {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        width: 35px;
+    }
+    
+    .sommme-background {
+        margin-top: -500px;
+    }
+    
+    .screen {
+        float: left;
+        margin-top: 300px;
+        margin-left: -200px;
+    }
+
+
+    .element-sommme {
+        width: 30%;
+        margin-left: 280px;
+    }
+    
+    .element-problem {
+        width: 30%;
+        margin-left: 200px;
+    }
+
+    .overview .content, .problem-content .content, .research-content .content, .defining-content .content, .design-content .content, .conclusion-content .content, .mini-title, .mini-title-1 {
+        width: 100%;
+    }
+    
+    .prototype {
+        width: 50%;
+    }
+
+    .survey {
+        margin-top: 00px;
+        margin-bottom: 00px;
+    }
+
+    .personas {
+        margin-top: -20px;
+        margin-bottom: 0px;
+    }
+    
+    .flows {
+        margin-top: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .wireframes-2 {
+        margin-top: -40px;
+    }
+
+    .branding {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .problem-header {
+        height: 200px;
+        margin-bottom: 50px;
+    }    
+    
+    .research-header {
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: -20px;
+    }
+
+    .defining-header {
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    .design-header {
+        height: 200px;
+    }
+
+    .conclusion-header {
+        height: 200px;
+        margin-bottom: -20px;
+    }
+
+    
+    .button.download {
+        width: 50%;
+        position: relative;
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+    
+    .button.more {
+        width: 50%;
+        position: relative;
+        margin-left: 110px;
+    }
+    
+    .contact {
+        height: 500px;
+    }
+    
+    .navbar {
+        height: 60px;
+    }
+    
+    .navbar-logo img {
+        width: 70%;
+        margin-top: -30px;
+    }
+    
+    .navbar-item .button {
+        display: none;
+    }
+    
+    .navbar-item ul {
+        font-size: 13px;
+        float: right;
+        position: relative;
+        margin-right: -50px;
+        margin-top: 20px;
+    }
+    
+    .element {
+        width: 30%;
+        position: relative;
+        margin-top: -36px;
+        margin-left: 150px;
+    }
+    
+    .element-long, .element-research {
+        width: 30%;
+        position: relative;
+        margin-top: -38px;
+        margin-left: 293px;
+    }
+       
+    .element-about {
+        width: 30%;
+        left: -60px;
+        top: 23px;
+    }
+    
+    .element-international {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+
+    
+    .footer {
+        height: 90px;
+    }
+
+    .footer-copy {
+        margin-top: 35px;
+    }
+
+    .footer-copy p {
+        font-size: 20px;
+    }
+
+    .footer-icons {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer-icons img {
+        padding: 0px 10px 0px 10px;
+        float: right;
+        margin: auto;
+        width: 13%;
+    }
+
+    .footer-icons .email-icon {
+        margin-top: 4px;
+    }
+
+    .footer-icons .twitter-icon {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 688px) and (max-width: 1000px) {
+    html { 
+        background: blue; 
+    }
+    
+    .seven.columns { 
+        width: 100%; 
+    }
+    
+    .one-half.column { 
+        width: 48%; 
+    }
+    
+    h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    
+    .international h2 {
+        margin-top: -50px;
+    }
+    
+    h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    a.arrow {
+        font-size: 60px;
+        margin-top: 70px;
+        margin-bottom: -120px;
+    }
+    
+    h5.arrow-text {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .element {
+        width: 30%;
+        position: relative;
+        margin-top: -38px;
+        margin-left: 170px;
+    }
+    
+    .element-long, .element-research {
+        width: 40%;
+        position: relative;
+        margin-top: -38px;
+        margin-left: 333px;
+    }
+    
+     .element-about {
+        width: 30%;
+        left: -40px;
+        top: 23px;
+    }
+    
+    .element-international {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .skills .row {
+        position: relative;
+        margin: auto;
+        margin-top: 80px;
+        width: 80%;
+    }
+    
+    .skills .content {
+        font-size: 21px;
+        line-height: 33px;
+    }
+    
+    .work-together-content.content {
+        font-size: 21px;
+        line-height: 33px;
+    }
+    
+    .skills-list li {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .skills-list {
+        margin-top: 50px;
+    }
+    
+    .skills-list .skills, .skills-list .tools {
+        margin-bottom: 30px;
+        width: 40px;
+    }
+    
+    .skills-list .strategy {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        width: 35px;
+    }
+    
+    .screen {
+        float: left;
+        height: 80%;
+        margin-top: 300px;
+        margin-left: -125px;
+    }
+    
+    .sommme-background {
+        margin-bottom: 60px;
+    }
+
+
+    .element-sommme {
+        width: 30%;
+        margin-left: 300px;
+    }
+    
+    .element-problem {
+        width: 30%;
+        margin-left: 240px;
+    }
+
+    .overview .content, .problem-content .content, .research-content .content, .defining-content .content, .design-content .content, .conclusion-content .content, .mini-title, .mini-title-1 {
+        width: 80%;
+    }
+    
+
+    .prototype {
+        width: 50%;
+    }
+
+    .survey {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .personas {
+        margin-top: -20px;
+        margin-bottom: 0px;
+    }
+    
+    .flows {
+        margin-top: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .wireframes-2 {
+        margin-top: -40px;
+    }
+
+    .branding {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    .problem-header {
+        height: 200px;
+        margin-bottom: 50px;
+    }    
+    
+    .research-header {
+        height: 200px;
+    }
+
+    .defining-header {
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    .design-header {
+        height: 200px;
+    }
+
+    .conclusion-header {
+        height: 200px;
+        margin-bottom: -20px;
+    }
+
+    
+    
+    .button.download {
+        width: 50%;
+        position: relative;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    
+    .button.more {
+        width: 50%;
+        position: relative;
+        margin-left: 130px;
+    }
+    
+    
+    .navbar {
+        height:80px;
+    }
+    
+    .navbar-logo img {
+        width: 90%;
+        margin-top: -10px;
+    }
+    
+    .navbar-item ul {
+        font-size: 13px;
+        margin-top: 12px;
+    }
+    
+    .navbar-item ul > li {
+        padding: 0 15px 0 15px;
+    }
+    
+    .navbar-item .button {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 0 12px;
+    }
+    
+    .button {
+        vertical-align: middle;
+        border: 2px solid #00DBDE;
+        color: white;
+        font-family: "Khula";
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .button:hover {
+        border: 2px solid #00DBDE;
+        background-color: #00DBDE;
+        color: white;
+    }
+
+    li {
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+    }  
+    
+    .footer {
+        height: 100px;
+    }
+    
+    .footer-copy {
+        margin-top: 35px;
+    }
+
+    .footer-copy p {
+        font-size: 20px;
+    }
+
+    .footer-icons {
+        margin-top: 30px;
+    }
+
+    .footer-icons img {
+        padding: 0px 20px 0px 20px;
+        float: right;
+        margin: auto;
+        width: 12%;
+    }
+
+    .footer-icons .email-icon {
+        margin-top: 4px;
+    }
+
+    .footer-icons .twitter-icon {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 1001px) {
+    html { 
+        background: white; 
+    }
+    
+    .seven.columns { 
+        width: 70%; 
+    }
+    
+    .one-half.column { 
+        width: 48%; 
+    }
+    
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    .international h2 {
+        margin-top: -30px;
+    }
+    
+    
+    h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    a.arrow {
+        font-size: 60px;
+        margin-top: -100px;
+        margin-bottom: -120px;
+    }
+    
+    h5.arrow-text {
+        font-size: 23px;
+        letter-spacing: .01em;
+    }
+    
+    p {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    
+    .element {
+        width: 30%;
+        position: relative;
+        margin-top: -38px;
+        margin-left: 175px;
+    }
+    
+    .element-long, .element-research {
+        width: 30%;
+        position: relative;
+        margin-top: -38px;
+        margin-left: 333px;
+    }
+    
+     .element-about {
+        width: 25%;
+        left: -40px;
+        top: 23px;
+    }
+    
+    .element-international {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    
+    .hero {
+        position: relative;
+        margin-top: 170px;
+        margin-bottom: 50px;
+    }
+    
+    .hero-subheading {
+        margin-bottom: 80px;
+    }
+    
+    .hero-about {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .hero-subheading-about {
+        margin-bottom: 180px;
+    }
+    
+    .about .content {
+        width: 90%;
+        margin-left: 0px;
+    }
+    
+    .skills .row {
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        width: 60%;
+    }
+    
+    .skills-list li {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .skills-list {
+        margin-top: 50px;
+    }
+    
+    .skills-list .skills, .skills-list .tools {
+        margin-bottom: 30px;
+        width: 40px;
+    }
+    
+    .skills-list .strategy {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        width: 35px;
+    }
+    
+    .branding {
+        width: 40%;
+    }
+    
+    .problem-header {
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+    
+    .button.download {
+        width: 30%;
+        margin-left: 150px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    
+    .button.more {
+        margin-top: 40px;
+        width: 30%;
+    }
+    
+    .footer {
+        height: 100px;
+    }
+    
+    .footer-copy {
+    margin-top: 35px;
+}
+
+    .footer-copy p {
+        font-size: 20px;
+    }
+
+    .footer-icons {
+        margin-top: 35px;
+    }
+
+    .footer-icons img {
+        padding: 0px 30px 0px 30px;
+        float: right;
+        margin: auto;
+        width: 35px;
+    }
+
+    .footer-icons .email-icon {
+        margin-top: 4px;
+    }
+
+    .footer-icons .twitter-icon {
+        margin-top: 5px;
+    }
+}
+    
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
