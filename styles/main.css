@@ -636,12 +636,12 @@ a.work {
 
 @media (max-width: 400px) {
     html { 
-        background: red; 
+        background: white; 
     }
     
     h1 {
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 35px;
+        line-height: 40px;
     }
     
     h2 {
@@ -685,6 +685,14 @@ a.work {
         font-size: 50px;
         color: #00DBDE;
         margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    
+    .fa.home {
+        font-size: 50px;
+        color: #00DBDE;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     
     h5.arrow-text {
@@ -902,7 +910,7 @@ a.work {
    
 @media (min-width: 401px) and (max-width: 687px) {    
     html { 
-          background: green; 
+          background: white; 
         }
     
     .seven.columns { 
@@ -924,6 +932,10 @@ a.work {
     }
     
     
+    h5.arrow-text {
+        display: none;
+    }
+    
     .international h2 {
         margin-top: -80px;
     }
@@ -942,11 +954,7 @@ a.work {
    .fa {
         font-size: 55px;
         margin-top: 50px;
-    }
-    
-    h5.arrow-text {
-        margin-top: -20px;
-        font-size: 20px;
+        margin-bottom: 20px;
     }
     
     p {
@@ -1158,7 +1166,7 @@ a.work {
 
 @media (min-width: 688px) and (max-width: 1000px) {
     html { 
-        background: blue; 
+        background: white; 
     }
     
     .seven.columns { 
@@ -1192,11 +1200,11 @@ a.work {
     .fa {
         font-size: 60px;
         margin-top: 70px;
-        margin-bottom: -120px;
+        margin-bottom: 20px;
     }
     
     h5.arrow-text {
-        font-size: 20px;
+        display: none;
     }
     
     p {
@@ -1480,7 +1488,7 @@ a.work {
     }
     
     h5.arrow-text {
-        font-size: 23px;
+        font-size: 20px;
         letter-spacing: .01em;
     }
     
