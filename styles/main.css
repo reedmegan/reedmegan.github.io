@@ -92,6 +92,10 @@ li {
     font-weight: 600;
 }
 
+li:hover {
+    color: #00DBDE;
+}
+
 a {
     text-decoration: none;
 }
@@ -119,10 +123,6 @@ h5.arrow-text {
     color: #00DBDE;
     text-align: center;
     font-weight: 300;
-}
-
-.fa:hover {
-    color: #003F55;
 }
 
 /* ------------------ Navigation Bar ------------------ */
@@ -650,6 +650,10 @@ a.work {
         width: 100%;
     }
     
+    .hero {
+        top: -25px;
+    }
+    
     .about .content-last {
         margin-bottom: 80px;
     }
@@ -1093,7 +1097,9 @@ a.work {
     }
     
     .navbar-item .button {
-        display: none;
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 0 12px;
     }
     
     .navbar-item ul {
@@ -1101,7 +1107,7 @@ a.work {
         float: right;
         position: relative;
         margin-right: -50px;
-        margin-top: 20px;
+        margin-top: 8px;
     }
     
     .element {
