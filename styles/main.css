@@ -105,7 +105,7 @@ img {
     height: auto;
 }
 
-a.arrow {
+.fa {
     font-family: "FontAwesome";
     font-size: 80px;
     color: #00DBDE;
@@ -121,7 +121,7 @@ h5.arrow-text {
     font-weight: 300;
 }
 
-a.arrow:hover {
+.fa:hover {
     color: #003F55;
 }
 
@@ -380,7 +380,19 @@ a.arrow:hover {
     margin: 40px auto;
 }
 
+.about .content-last {
+    position: relative;
+    margin: 40px auto;
+    margin-bottom: 150px;
+    color: white;
+}
 
+a.work {
+    color: #003F55;
+    margin-top: -50px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
 
 /* INTERNATIONAL SECTION on ABOUT PAGE */
 .international {
@@ -638,6 +650,15 @@ a.arrow:hover {
         width: 100%;
     }
     
+    .about .content-last {
+        margin-bottom: 80px;
+    }
+    
+    a.work {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
     .international h2 {
         margin-top: -70px;
     }
@@ -660,7 +681,7 @@ a.arrow:hover {
         letter-spacing: .05em;
     }
     
-    a.arrow {
+   .fa {
         font-size: 50px;
         color: #00DBDE;
         margin-top: 90px;
@@ -918,7 +939,7 @@ a.arrow:hover {
         line-height: 30px;
     }
     
-    a.arrow {
+   .fa {
         font-size: 55px;
         margin-top: 50px;
     }
@@ -951,6 +972,10 @@ a.arrow:hover {
         margin-top: -10px;
         margin-bottom: 30px;
         width: 35px;
+    }
+    
+    .about .content-last {
+        margin-bottom: 80px;
     }
     
     .sommme-background {
@@ -1164,7 +1189,7 @@ a.arrow:hover {
         line-height: 35px;
     }
     
-    a.arrow {
+    .fa {
         font-size: 60px;
         margin-top: 70px;
         margin-bottom: -120px;
@@ -1448,7 +1473,7 @@ a.arrow:hover {
         line-height: 35px;
     }
     
-    a.arrow {
+    .fa {
         font-size: 60px;
         margin-top: -100px;
         margin-bottom: -120px;
