@@ -73,13 +73,13 @@ p {
 
 .button.soon {
     background-color: white;
-    border: 2px solid #003F55;
+    opacity: 0.50;
+    border: 2px solid #00DBDE;
     color: #003F55;
 }
 
 .button.soon:hover {
     background-color: white;
-    border: 2px solid #003F55;
 }
 
 .button:hover {
@@ -228,27 +228,14 @@ h5.arrow-text {
 }
 
 /* Case Studies on Home Page */
-/*
-.sommme-bg { 
-    position: relative;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.case-study-1 .h2 {
-    position: relative;
-    margin-top: -300px;
-    text-align: center;
-
-}
-*/
 
 .case-study-1 h2 {
     color: white;
 }
 
 .case-study-2 h2, .case-study-3 h2 {
-    opacity: 0.75;
+    color: white;
+
 }
 
 .case-study-1 h4 {
@@ -256,8 +243,7 @@ h5.arrow-text {
 }
 
 .case-study-2 h4, .case-study-3 h4 {
-    color: #003F55;
-    opacity: 0.75;
+    color: white;
 }
 
 .case-study-1 {
@@ -282,6 +268,15 @@ h5.arrow-text {
     margin-bottom: 10px;
 }
 
+.case-study-1:hover {
+    background-color: #003F55;
+}
+
+.case-study-2:hover, .case-study-3:hover {
+    background-color: grey;
+    opacity: 0.9;
+}
+    
 .case-study-3 {
     background-image: url(../images/mystamford-background.png);
     background-size: cover;
@@ -374,10 +369,18 @@ h5.arrow-text {
     margin-bottom: 60px;
 }
 
+.about .content-first {
+    position: relative;
+    margin-top: 100px;
+    color: white;
+    width: 80%;
+}
+
 .about .content {
     color: white;
     position: relative;
-    margin: 40px auto;
+    margin-top: 40px;
+    width: 80%;
 }
 
 .about .content-last {
@@ -472,6 +475,20 @@ a.work {
     position: relative;
     margin: 20px auto;
     width: 60%;
+}
+
+.research-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+ol {
+    margin: 60px;
+}
+
+.research-content li:hover {
+    color: #003F55;
 }
 
 .conclusion-content {
@@ -712,6 +729,14 @@ a.work {
         margin-bottom: 50px;
     }
     
+    .about .content, .about .content-last, .about .content-first {
+        width: 100%;
+    }
+    
+    .about .content-first {
+        margin-top: 50px;
+    }
+    
     .skills-list li {
         font-size: 18px;
     }
@@ -730,14 +755,14 @@ a.work {
     }
     
     .sommme-background {
-        margin-top: -450px;
+        margin-top: 0px;
         margin-bottom: 50px;
+        height: 250px;
+        background-size: cover;
     }
     
     .screen {
-        float: left;
-        margin-top: 300px;
-        margin-left: -250px;
+        display: none;
     }
 
     .element-sommme {
@@ -785,6 +810,11 @@ a.work {
         width: 100%;
     }
     
+
+    ol {
+        margin: 40px;
+    }
+    
     .prototype {
         width: 50%;
     }
@@ -822,6 +852,7 @@ a.work {
         height: 200px;
         margin-top: 0px;
         margin-bottom: -20px;
+        background-size: cover;
     }
 
     .defining-header {
@@ -832,6 +863,8 @@ a.work {
 
     .design-header {
         height: 200px;
+        background-size: cover;
+        width: 100%;
     }
 
     .conclusion-header {
@@ -990,6 +1023,14 @@ a.work {
         margin-bottom: 80px;
     }
     
+    .about.content, .about.content-last, .about.content-first {
+        width: 70%;
+    }
+    
+    .about .content-first {
+        margin-top: 80px;
+    }
+    
     .sommme-background {
         margin-top: -500px;
     }
@@ -1013,6 +1054,10 @@ a.work {
 
     .overview .content, .problem-content .content, .research-content .content, .defining-content .content, .design-content .content, .conclusion-content .content, .mini-title, .mini-title-1 {
         width: 100%;
+    }
+    
+    ol {
+        margin: 20px;
     }
     
     .prototype {
@@ -1260,6 +1305,14 @@ a.work {
         line-height: 33px;
     }
     
+    .about.content, .about.content-first, .about.content-last {
+        width: 60%;
+    }
+    
+    .about .content-first {
+        margin-top: 80px;
+    }
+    
     .skills-list li {
         font-size: 20px;
         line-height: 25px;
@@ -1306,6 +1359,9 @@ a.work {
         width: 80%;
     }
     
+    ol {
+        margin: 40px;
+    }
 
     .prototype {
         width: 50%;
@@ -1546,11 +1602,6 @@ a.work {
     
     .hero-subheading-about {
         margin-bottom: 180px;
-    }
-    
-    .about .content {
-        width: 90%;
-        margin-left: 0px;
     }
     
     .skills .row {
