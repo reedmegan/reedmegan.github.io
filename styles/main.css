@@ -71,21 +71,21 @@ p {
     font-weight: 600;
 }
 
-.button.soon {
-    background-color: white;
-    opacity: 0.50;
-    border: 2px solid #00DBDE;
-    color: #003F55;
-}
-
-.button.soon:hover {
-    background-color: white;
+.soon {
+    border: 2px solid white;
+    color: white;
 }
 
 .button:hover {
     border: 2px solid #00DBDE;
     background-color: #00DBDE;
     color: #003F55;
+}
+
+.soon:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
 }
 
 li {
@@ -270,11 +270,6 @@ h5.arrow-text {
 
 .case-study-1:hover {
     background-color: #003F55;
-}
-
-.case-study-2:hover, .case-study-3:hover {
-    background-color: grey;
-    opacity: 0.9;
 }
     
 .case-study-3 {
@@ -506,6 +501,7 @@ ol {
     position: relative;
     margin: 60px auto;
     width: 20%;
+    opacity: 0.5;
 }
 
 .mini-title.proto {
@@ -515,7 +511,7 @@ ol {
 }
 
 .prototype:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .personas {
@@ -789,6 +785,7 @@ ol {
     }
     
     .element-research {
+        top: -4px;
         width: 20%;
         left: -10px;
         float: right;
