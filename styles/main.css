@@ -277,7 +277,7 @@ h5.arrow-text {
     margin-bottom: 10px;
 }
 
-.case-study-1:hover, .case-study-2:hover {
+.case-study-1:hover, .case-study-2:hover, case-study-3:hover {
     background-color: #003F55;
 }
     
