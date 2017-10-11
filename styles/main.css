@@ -62,6 +62,10 @@ p {
     letter-spacing: .0em;
 }
 
+ol {
+    list-style: disc;
+}
+
 .button {
     vertical-align: middle;
     border: 2px solid #00DBDE;
@@ -89,7 +93,11 @@ p {
 }
 
 li {
-    font-weight: 600;
+    font-weight: 100;
+}
+
+li.content {
+    max-width: 80%;
 }
 
 li:hover {
@@ -158,6 +166,7 @@ h5.arrow-text {
     color: #003F55;
     font-family: "Khula";
     letter-spacing: .04em;
+    font-weight: 600;
 }
 
 .navbar .button {
@@ -472,7 +481,27 @@ a.work {
     width: 60%;
 }
 
+
+
 .research-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+.design-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+.problem-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+.overview li {
     font-size: 20px;
     width: 30%;
     color: #003F55;
@@ -501,6 +530,15 @@ ol {
     width: 100%;
 }
 
+.wireframes-1 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.app-design {
+    padding-top: 40px;
+}
+
 .prototype {
     position: relative;
     margin: 60px auto;
@@ -527,6 +565,11 @@ ol {
 
 .personas {
     bottom: -40px;
+}
+
+.upstay-personas {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .wireframes-2 {
@@ -663,7 +706,7 @@ ol {
     z-index: -1;
     position: relative;
     margin-top: -550px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 .element-upstay {
@@ -672,7 +715,17 @@ ol {
     height: 10px;
     position: relative;
     margin-top: -38px;
-    margin-left: 300px;
+    margin-left: 250px;
+
+}
+
+.element-upstay-2 {
+    background-color: #00DBDE;
+    width: 256px;
+    height: 10px;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 280px;
 
 }
 
@@ -683,6 +736,24 @@ ol {
 }
 
 .research-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+.design-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+.problem-content li {
+    font-size: 20px;
+    width: 30%;
+    color: #003F55;
+}
+
+.overview li {
     font-size: 20px;
     width: 30%;
     color: #003F55;
@@ -784,7 +855,7 @@ ol {
 }
 
 
-/* Assets for SommMe */
+/* Assets for UpStay */
 
 .mini-title-1 {
     position: relative;
@@ -798,7 +869,7 @@ ol {
     margin-bottom: 40px;
 }
 
-/* Assets for SommMe */
+/* Assets for UpStay */
 
 .screen {
     max-width: 40%;
@@ -938,6 +1009,10 @@ ol {
         font-size: 20px;
         line-height: 27px;
     }
+    
+    li.content {
+    max-width: 100%;
+}
     
     .work-together-content h2 {
         margin-bottom: 50px;
@@ -1202,6 +1277,9 @@ ol {
     .footer-icons .twitter-icon {
         margin-top: 5px;
     }
+            .overview {
+    margin-top: 40px;
+}
 }
    
 @media (min-width: 401px) and (max-width: 687px) {    
@@ -1307,6 +1385,10 @@ ol {
         margin-top: 400px;
         margin-left: -230px;
     }
+    
+    li.content {
+    max-width: 80%;
+}
 
 
     .element-sommme {
@@ -1317,6 +1399,11 @@ ol {
     .element-upstay {
         width: 30%;
         margin-left: 280px;
+    }
+    
+    .element-upstay-2 {
+        width: 30%;
+        margin-left: 250px;
     }
     
     .element-problem {
@@ -1569,6 +1656,10 @@ ol {
         line-height: 30px;
     }
     
+    li.content {
+    max-width: 80%;
+}
+    
     .element {
         width: 30%;
         position: relative;
@@ -1663,6 +1754,11 @@ ol {
     .element-upstay {
         width: 30%;
         margin-left: 300px;
+    }
+    
+        .element-upstay-2 {
+        width: 30%;
+        margin-left: 280px;
     }
     
     .element-problem {
@@ -1814,7 +1910,7 @@ ol {
     }
 
     li {
-        font-weight: 600;
+        font-weight: 300;
     }
 
     a {
@@ -1851,6 +1947,10 @@ ol {
     .footer-icons .twitter-icon {
         margin-top: 5px;
     }
+.overview {
+    margin-top: -480px;
+}
+
 }
 
 @media (min-width: 1001px) {
@@ -1905,6 +2005,11 @@ ol {
         font-size: 23px;
         line-height: 35px;
     }
+
+    
+    li.content {
+    max-width: 60%;
+}
     
     .element {
         width: 30%;
