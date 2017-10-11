@@ -1,0 +1,6 @@
+.scope-header {
+    background-image: url(../images/scope-bg.png);
+    background-size: contain;
+    max-width: 100%;
+    max-height:100%;
+}
