@@ -804,7 +804,7 @@ ol {
     max-width: 40%;
     float: right;
     position: relative;
-    top: -265px;
+    top: -365px;
     left: 350px;
 }
 
@@ -1304,8 +1304,8 @@ ol {
     
     .screen {
         float: left;
-        margin-top: 300px;
-        margin-left: -200px;
+        margin-top: 400px;
+        margin-left: -230px;
     }
 
 
@@ -1642,8 +1642,8 @@ ol {
     .screen {
         float: left;
         max-height: 80%;
-        margin-top: 300px;
-        margin-left: -125px;
+        margin-top: 400px;
+        margin-left: -140px;
     }
     
     .sommme-background {
@@ -1859,7 +1859,7 @@ ol {
     }
     
     .six.columns {
-        width: 70%;
+        width: 60%;
     }
     
     .seven.columns { 
