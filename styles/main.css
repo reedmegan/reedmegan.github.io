@@ -242,7 +242,7 @@ h5.arrow-text {
     color: white;
 }
 
-.case-study-2 h2, .case-study-3 h2 {
+.case-study-2 h2, .case-study-3 h2, .case-study-4 h2 {
     color: white;
 
 }
@@ -251,12 +251,12 @@ h5.arrow-text {
     color: white;
 }
 
-.case-study-2 h4, .case-study-3 h4 {
+.case-study-2 h4, .case-study-3 h4, .case-study-4 h4 {
     color: white;
 }
 
 .case-study-1 {
-    background-image: url(../images/sommme-background.png);
+    background-image: url(../images/upstay-bg-homepage.png);
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -267,7 +267,7 @@ h5.arrow-text {
 }
 
 .case-study-2 {
-    background-image: url(../images/everybell-background.png);
+    background-image: url(../images/sommme-background.png);
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -277,11 +277,22 @@ h5.arrow-text {
     margin-bottom: 10px;
 }
 
-.case-study-1:hover {
+.case-study-1:hover, .case-study-2:hover {
     background-color: #003F55;
 }
     
 .case-study-3 {
+    background-image: url(../images/mystamford-background.png);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.case-study-4 {
     background-image: url(../images/mystamford-background.png);
     background-size: cover;
     min-width: 100%;
@@ -706,7 +717,7 @@ ol {
     z-index: -1;
     position: relative;
     margin-top: -550px;
-    margin-bottom: 0px;
+    margin-bottom: 90px;
 }
 
 .element-upstay {
@@ -1052,7 +1063,7 @@ ol {
     
     .upstay-background {
         margin-top: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         height: 250px;
         background-size: cover;
     }
