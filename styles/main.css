@@ -279,6 +279,7 @@ h5.arrow-text {
 
 .case-study-1:hover, .case-study-2:hover, .case-study-3:hover {
     background-color: #003F55;
+    opacity: .7;
 }
     
 .case-study-3 {
@@ -855,7 +856,7 @@ ol {
 
 .design-header-upstay {
     position: relative;
-    background-image: url(../images/visual-bg.png);
+    background-image: url(../images/next-steps-bg.png);
     height: 229px;
 }
 
