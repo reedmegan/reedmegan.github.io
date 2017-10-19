@@ -1043,6 +1043,10 @@ ol {
         line-height: 27px;
     }
     
+    .case-study-1 {
+    background-image: url(../images/upstay-min-1000-bg.png);
+}
+    
     li.content {
     max-width: 100%;
 }
@@ -1693,6 +1697,8 @@ ol {
     max-width: 80%;
 }
     
+
+    
     .element {
         width: 30%;
         position: relative;
@@ -2038,7 +2044,6 @@ ol {
         font-size: 23px;
         line-height: 35px;
     }
-
     
     li.content {
     max-width: 60%;
